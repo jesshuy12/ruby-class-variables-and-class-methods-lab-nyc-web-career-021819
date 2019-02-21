@@ -28,9 +28,9 @@ class Song
   end
   
   def self.genre_count
-    genre_count = {}              #new hash
-    @@genres.each do |genre|      #iut
-      if genre_count[genre]
+    genre_count = {}              #new empty hash
+    @@genres.each do |genre|      #iterate thru @@genres
+      if genre_count[genre]       #if genre value is
         genre_count[genre] += 1 
       else
         genre_count[genre] = 1
