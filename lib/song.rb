@@ -45,7 +45,7 @@ class Song
       if artist_hash[artist]      #if artist key value is present,                           increment 1
         artist_hash[artist] += 1 
       else
-        artist_hash[artist] = 1  #if key value doesnt match, make                         new key/value pair and set to 1
+        artist_hash[artist] = 1   #if key value doesnt match, make                         new key/value pair and set to 1
       end
     end
     artist_hash
