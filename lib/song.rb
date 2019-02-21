@@ -20,7 +20,7 @@ class Song
   end
   
   def self.artists
-    @@artists.uniq    #unqie values only
+    @@artists.uniq    #unique values only
   end
   
   def self.genres
