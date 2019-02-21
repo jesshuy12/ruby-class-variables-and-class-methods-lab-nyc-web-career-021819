@@ -28,27 +28,27 @@ class Song
   end
   
   def self.genre_count
-    genre_count = {}              #new empty hash
+    genre_hash = {}              #new empty hash
     @@genres.each do |genre|      #iterate thru @@genres
-      if genre_count[genre]       #if genre key value is present,                           increment 1
-        genre_count[genre] += 1 
+      if genre_hash[genre]       #if genre key value is present,                           increment 1
+        genre_hash[genre] += 1 
       else
-        genre_count[genre] = 1    #if key value doesnt match, make                         new key/value pair and set to 1
+        genre_hash[genre] = 1    #if key value doesnt match, make                         new key/value pair and set to 1
       end
     end
-    genre_count
+    genre_hash
   end
   
   def self.artist_count
-    artist_count = {}              #new empty hash
+    artist_hash = {}              #new empty hash
     @@artists.each do |artist|      #iterate thru @@artist
-      if artist_count[artist]     #if artist key value is present,                           increment 1
-        artist_count[artist] += 1 
+      if artist_hash[artist]     #if artist key value is present,                           increment 1
+        artist_hash[artist] += 1 
       else
-        artist_count[artist] = 1  #if key value doesnt match, make                         new key/value pair and set to 1
+        artist_hash[artist] = 1  #if key value doesnt match, make                         new key/value pair and set to 1
       end
     end
-    artist_count
+    artist_hash
   end
   
 end
