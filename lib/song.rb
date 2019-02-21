@@ -20,11 +20,11 @@ class Song
   end
   
   def self.artists
-    @@artists.uniq
+    @@artists.uniq    #unqie values only
   end
   
   def self.genres
-    @@genres.uniq 
+    @@genres.uniq     #unique values only
   end
   
   
