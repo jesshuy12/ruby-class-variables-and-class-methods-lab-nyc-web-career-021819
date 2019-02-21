@@ -30,7 +30,7 @@ class Song
   def self.genre_count
     genre_count = {}              #new empty hash
     @@genres.each do |genre|      #iterate thru @@genres
-      if genre_count[genre]       #if genre key value is in                                     genre_count hash, add 1
+      if genre_count[genre]       #if genre key value is present,                           increment 1
         genre_count[genre] += 1 
       else
         genre_count[genre] = 1
