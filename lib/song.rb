@@ -36,7 +36,7 @@ class Song
         genre_count = 1
       end
     end
-    genre_count.
+    genre_count.to_i
   end
   
   
