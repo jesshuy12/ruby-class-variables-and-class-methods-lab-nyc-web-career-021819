@@ -27,6 +27,8 @@ class Song
     @@genres.uniq     #unique values only
   end
   
+  def self.genre_count
+  
   
   
   
