@@ -15,8 +15,8 @@ class Song
     @@genres << genre       #pushing genre values into array
   end
   
-  def self.count
-    @@count
+  def self.count      
+    @@count           #returns total songs created
   end
   
   def self.artists
