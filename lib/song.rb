@@ -35,7 +35,7 @@ class Song
       else
         genre_count[genre] = 1
       end
-    end.to_i
+    end
   end
   
   
