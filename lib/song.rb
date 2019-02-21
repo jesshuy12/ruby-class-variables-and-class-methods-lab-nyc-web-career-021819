@@ -16,7 +16,7 @@ class Song
   end
   
   def self.count      
-    @@count           #returns total songs created
+    @@count            
   end
   
   def self.artists
